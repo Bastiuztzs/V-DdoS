@@ -15,8 +15,8 @@ year = now.year
 # Erstellen eines UDP Sockets
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
-# Erzeugung von zufälligen 3000 Bytes für das Paket
-bytes = random._urandom(3000)  # Paketgröße auf 3000 Bytes gesetzt
+# Erzeugung von zufälligen 6000 Bytes für das Paket
+bytes = random._urandom(6000)  # Paketgröße auf 6000 Bytes gesetzt
 
 # Bildschirm löschen und Text anzeigen
 os.system("clear")
